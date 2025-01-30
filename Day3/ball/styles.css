@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.b2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1 {
+  font-size: 50px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.b1:hover {
+  animation: swing 0.5s ease-in-out;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.bell:hover {
+  animation: swing 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=styles.css.map */

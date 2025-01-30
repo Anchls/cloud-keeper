@@ -1,0 +1,9 @@
+$background: 1px solid rgb(116, 116, 116);
+$text:center;
+$collapse: collapse;
+
+body{
+    border-collapse: $collapse;
+    text-align: $text;
+    border: $background;
+}

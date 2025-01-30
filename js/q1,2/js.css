@@ -1,0 +1,40 @@
+
+.form{
+    height: 380px;
+    margin: 30px;
+    padding: 5px 50px 5px 50px;
+   }
+   .form-para{
+    height: 180px;
+    width: 500px;
+    margin-left: 50px;
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 370px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 24px 32px 24px 32px;
+    
+   }
+   .check{
+    display: flex;
+    align-items: center;
+   }
+   input{
+    width: 100%;
+    border-color: #ffffff;
+    border: none;
+    padding: 3px;
+    margin: 3px;
+    border-bottom: 1px solid #FFC926;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    
+   }
+   label{
+    color: #000000;
+   }
+   

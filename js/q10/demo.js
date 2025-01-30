@@ -1,0 +1,3 @@
+var personproto={ calccage()
+
+}

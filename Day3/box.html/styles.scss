@@ -1,0 +1,24 @@
+$clr:0 4px 8px rgba(0, 0, 0, 0.1);;
+$clr2: 0 6px 16px rgba(0, 0, 0, 0.2); 
+$trans: all 0.3s ease; 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: $clr;
+    text-align: center;
+    transition: $trans; 
+}
+.box:hover {
+    background-color: #3498db;  
+    transform: scale(1.05);      
+    box-shadow: $clr2; 
+}
+
+  
